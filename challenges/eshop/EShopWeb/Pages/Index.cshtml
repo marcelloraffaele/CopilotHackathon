@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>Automobile Parts</h1>
+
+<form method="get">
+    <input type="text" name="search" value="@Model.Search" placeholder="Search products..." />
+    <input type="number" name="minPrice" value="@Model.MinPrice" placeholder="Min Price" step="0.01" />
+    <input type="number" name="maxPrice" value="@Model.MaxPrice" placeholder="Max Price" step="0.01" />
+    <button type="submit">Filter</button>
+</form>
+
+@if (Model.Products.Count == 0)
+{
+    <p>No products found.</p>
+}
+else
+{
+    <div class="product-list">
+        @foreach (var product in Model.Products)
+        {
+            <div class="product-item">
+                <a asp-page="Product" asp-route-id="@product.Id">
+                    <img src="@product.Image_Url" alt="@product.Name" width="100" />
+                    <h3>@product.Name</h3>
+                </a>
+                <p>@product.Manufacturer</p>
+                <p>@product.Price.ToString("C")</p>
+            </div>
+        }
+    </div>
+}
+
+<style>
+.product-list { display: flex; flex-wrap: wrap; gap: 2rem; }
+.product-item { border: 1px solid #ccc; padding: 1rem; width: 200px; border-radius: 8px; background: #fafafa; }
+.product-item img { display: block; margin: 0 auto 1rem; }
+.product-item h3 { margin: 0.5rem 0; }
+</style>

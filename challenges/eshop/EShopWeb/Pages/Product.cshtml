@@ -1,0 +1,27 @@
+@page "Product/{id:int}"
+@model ProductModel
+@{
+    ViewData["Title"] = Model.Product?.Name ?? "Product Details";
+}
+
+@if (Model.Product == null)
+{
+    <h2>Product not found</h2>
+}
+else
+{
+    <div class="product-detail">
+        <img src="@Model.Product.Image_Url" alt="@Model.Product.Name" width="200" />
+        <h1>@Model.Product.Name</h1>
+        <p><strong>Manufacturer:</strong> @Model.Product.Manufacturer</p>
+        <p><strong>Price:</strong> @Model.Product.Price.ToString("C")</p>
+        <p>@Model.Product.Description</p>
+        <a href="/">Back to list</a>
+    </div>
+}
+
+<style>
+.product-detail { max-width: 500px; margin: 2rem auto; border: 1px solid #ccc; border-radius: 8px; padding: 2rem; background: #fafafa; }
+.product-detail img { display: block; margin: 0 auto 1rem; }
+.product-detail h1 { margin-bottom: 1rem; }
+</style>
