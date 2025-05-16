@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "name": "Luke Skywalker",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg"
+  },
+  {
+    "id": 2,
+    "name": "C-3PO",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/3f/C-3PO_TLJ_Card_Trader_Award_Card.png"
+  },
+  {
+    "id": 3,
+    "name": "R2-D2",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/ArtooTFA2-Fathead.png"
+  },
+  {
+    "id": 4,
+    "name": "Darth Vader",
+    "image": "https://vignette.wikia.nocookie.net/fr.starwars/images/3/32/Dark_Vador.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Leia Organa",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/fc/Leia_Organa_TLJ.png"
+  },
+  {
+    "id": 6,
+    "name": "Owen Lars",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/OwenCardTrader.png"
+  },
+  {
+    "id": 7,
+    "name": "Beru Whitesun lars",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/cc/BeruCardTrader.png"
+  },
+  {
+    "id": 8,
+    "name": "R5-D4",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/cb/R5-D4_Sideshow.png"
+  },
+  {
+    "id": 9,
+    "name": "Biggs Darklighter",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/0/00/BiggsHS-ANH.png"
+  },
+  {
+    "id": 10,
+    "name": "Obi-Wan Kenobi",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Anakin Skywalker",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png"
+  },
+  {
+    "id": 12,
+    "name": "Wilhuff Tarkin",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c1/Tarkininfobox.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Chewbacca",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png"
+  },
+  {
+    "id": 14,
+    "name": "Han Solo",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/e2/TFAHanSolo.png"
+  },
+  {
+    "id": 15,
+    "name": "Greedo",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c6/Greedo.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Jabba Desilijic Tiure",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Jabba_SWSB.png"
+  },
+  {
+    "id": 18,
+    "name": "Wedge Antilles",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/60/WedgeHelmetless-ROTJHD.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Jek Tono Porkins",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/JekPorkins-DB.png"
+  },
+  {
+    "id": 20,
+    "name": "Yoda",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png"
+  },
+  {
+    "id": 21,
+    "name": "Palpatine",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d8/Emperor_Sidious.png"
+  },
+  {
+    "id": 22,
+    "name": "Boba Fett",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/79/Boba_Fett_HS_Fathead.png"
+  },
+  {
+    "id": 23,
+    "name": "IG-88",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f2/IG-88.png"
+  },
+  {
+    "id": 24,
+    "name": "Bossk",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/1d/Bossk.png"
+  },
+  {
+    "id": 25,
+    "name": "Lando Calrissian",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/8/8f/Lando_ROTJ.png"
+  },
+  {
+    "id": 26,
+    "name": "Lobot",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/96/SWE_Lobot.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Ackbar",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/29/Admiral_Ackbar_RH.png"
+  },
+  {
+    "id": 28,
+    "name": "Mon Mothma",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/b7/MP-MonMothma.png"
+  },
+  {
+    "id": 29,
+    "name": "Arvel Crynyd",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/de/Arvel-crynyd.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Wicket Systri Warrick",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4f/Wicket_RotJ.png"
+  },
+  {
+    "id": 31,
+    "name": "Nien Nunb",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/14/Old_nien_nunb_-_profile.png"
+  },
+  {
+    "id": 32,
+    "name": "Qui-Gon Jinn",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f6/Qui-Gon_Jinn_Headshot_TPM.jpg"
+  }
+]
