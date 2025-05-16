@@ -16,6 +16,7 @@ The `dotnet` folder contains the `MinimalAPI.sln` solution, with 2 projects:
 To run the tests, open a terminal in the `dotnet` folder and run:
 
 ``` bash
+cd exercisefiles\dotnet\
 dotnet test
 ```
 
@@ -164,7 +165,7 @@ Now that we have the new functionality added and tests covering it, lets create 
 
 ``` powershell
 docker build -t dotnetapp .
-docker run -d -p 8080:80 --name dotnetapp dotnetapp
+docker run -d -p 8080:8080 --name dotnetapp dotnetapp
 ```
 
 ## Summary

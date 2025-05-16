@@ -1,0 +1,39 @@
+### Root endpoint
+GET http://localhost:8080/
+
+### Days between dates
+GET http://localhost:8080/DaysBetweenDates?date1=2024-01-01&date2=2024-01-10
+
+### Validate Spanish phone number
+GET http://localhost:8080/validatephonenumber?phoneNumber=+34666777888
+###
+GET http://localhost:8080/validatephonenumber?phoneNumber=666777888
+
+### Validate Spanish DNI
+GET http://localhost:8080/validatespanishdni?dni=12345678Z
+###
+GET http://localhost:8080/validatespanishdni?dni=12345678A
+
+### Return color code (requires colors.json)
+GET http://localhost:8080/returncolorcode?color=red
+
+### Tell me a joke
+GET http://localhost:8080/tellmeajoke
+
+### Movies by director (requires OMDb API key)
+GET http://localhost:8080/moviesbydirector?director=Christopher%20Nolan
+
+### Parse URL
+GET http://localhost:8080/parseurl?someurl=https%3A%2F%2Fexample.com%3A8080%2Fpath%3Fquery%3D1%23hash
+
+### List files
+GET http://localhost:8080/listfiles
+
+### Get lines from sample.txt containing 'Fusce'
+GET http://localhost:8080/GetFullTextFile
+
+### Calculate memory consumption
+GET http://localhost:8080/calculatememoryconsumption
+
+### Random European country
+GET http://localhost:8080/randomeuropeancountry
