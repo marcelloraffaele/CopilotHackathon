@@ -1,3 +1,42 @@
-### Get Weather Forecast
-GET http://localhost:5002/WeatherForecast
+### Get automobile parts (paged)
+GET http://localhost:5002/api/EShop/parts?offset=0&limit=5
 Accept: application/json
+
+### Get automobile part by id
+GET http://localhost:5002/api/EShop/parts/1
+Accept: application/json
+
+### Search automobile parts by name
+GET http://localhost:5002/api/EShop/search?name=brake
+Accept: application/json
+
+### Search automobile parts by description
+GET http://localhost:5002/api/EShop/search?description=filter
+Accept: application/json
+
+### Search automobile parts by manufacturer
+GET http://localhost:5002/api/EShop/search?manufacturer=Bosch
+Accept: application/json
+
+### Search automobile parts by price
+GET http://localhost:5002/api/EShop/search?price=99.99
+Accept: application/json
+
+### Create a shop cart
+POST http://localhost:5002/api/EShop/cart?cartId=testcart1
+Accept: application/json
+
+### Add a product to the shop cart
+POST http://localhost:5002/api/EShop/cart/testcart1/add?partId=1
+Accept: application/json
+
+### Remove a product from the shop cart
+POST http://localhost:5002/api/EShop/cart/testcart1/remove?partId=1
+Accept: application/json
+
+### Get total price of products in the shop cart
+GET http://localhost:5002/api/EShop/cart/testcart1/total
+Accept: application/json
+###
+
+GET http://localhost:5002/openapi/v1.json
