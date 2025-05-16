@@ -176,7 +176,11 @@ Return the full list of movies
 app.MapGet("/moviesbydirector", async (string director) =>
 {
     // Replace with your actual OMDb API key
-    var apiKey = "YOUR_OMDB_API_KEY";
+    var apiKey = Environment.GetEnvironmentVariable("OMDB_API_KEY");
+    if (string.IsNullOrEmpty(apiKey))
+    {
+        return Results.Problem("OMDB_API_KEY environment variable is not set.");
+    }
     var httpClient = new HttpClient();
 
     // OMDb API does not support direct search by director, so we need to search by director name in the "s" parameter (title)
