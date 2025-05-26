@@ -22,13 +22,13 @@ Use a fixed list of 10 categories like ["Food", "Transport", "Entertainment", "S
 When insert a new expense, use current date as default, allow manual date selection.
 Enable CORS for all origins.
 Be sure that the controller is configured in the `program.cs`.
-Update the file `.http` add all the api for test.
+Update the file `.http` add all the api for test, add also the `<host>:<port>/openapi/v1.json`.
 ```
 
-
+Download the api description file from the `<host>:<port>/openapi/v1.json` and save it as `openapi.json`.
 
 # Frontend
-In agent mode run the following prompt:
+In agent mode run, add the openapi.json file as attachment and che frontend folder and the following prompt:
 ```markdown
 Work in the directory frontend. When run terminal remember to change the right directory, for example: `cd challenges/expensetracker/frontend && <command>`.
 
