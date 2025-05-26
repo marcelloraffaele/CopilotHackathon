@@ -1,0 +1,46 @@
+@ExpenseTrackerApi_HostAddress = http://localhost:5086
+
+GET {{ExpenseTrackerApi_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+# Get all expenses
+GET {{ExpenseTrackerApi_HostAddress}}/api/expenses
+Accept: application/json
+
+###
+# Add a new expense
+POST {{ExpenseTrackerApi_HostAddress}}/api/expenses
+Content-Type: application/json
+Accept: application/json
+
+{
+  "amount": 25.50,
+  "category": "Food",
+  "description": "Lunch at cafe"
+}
+
+###
+# Get expense by id
+GET {{ExpenseTrackerApi_HostAddress}}/api/expenses/1
+Accept: application/json
+
+###
+# Delete expense by id
+DELETE {{ExpenseTrackerApi_HostAddress}}/api/expenses/1
+Accept: application/json
+
+###
+# Get categories
+GET {{ExpenseTrackerApi_HostAddress}}/api/expenses/categories
+Accept: application/json
+
+###
+# Get total spending for current month
+GET {{ExpenseTrackerApi_HostAddress}}/api/expenses/summary/monthly
+Accept: application/json
+
+###
+# Get spending breakdown by category for current month
+GET {{ExpenseTrackerApi_HostAddress}}/api/expenses/summary/category
+Accept: application/json
